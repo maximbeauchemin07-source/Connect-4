@@ -15,8 +15,8 @@ public class Connect4 extends JPanel implements KeyListener, ActionListener {
     Button bReturn = new Button("Return to Title Screen"); //Button to return to the title screen
     Button bHow = new Button("How to Play"); //Title screen button to show rules of Connect 4 and keybinds
     Button bRestart = new Button("Play Again?"); //When a player wins, prompts to restart
-    ImageIcon titleIcon = new ImageIcon("assets/Logo.png"); //Connect 4 logo
-    ImageIcon instructionsIcon = new ImageIcon("assets/HowToPlay.png"); //Image containing rules of Connect 4
+    ImageIcon titleIcon = new ImageIcon("Connect-4-main/assets/Logo.png"); //Connect 4 logo
+    ImageIcon instructionsIcon = new ImageIcon("Connect-4-main/assets/HowToPlay.png"); //Image containing rules of Connect 4
     Color myLightBlue = new Color(224, 240, 255);
 
     //constructors
